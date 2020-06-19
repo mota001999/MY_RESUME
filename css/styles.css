@@ -1,0 +1,228 @@
+/*=============== tag based css =====================*/
+body{
+    /* color: #40514E; */
+    color: #FFFFFF;
+
+    
+    margin: 0px;
+    text-align: center;
+    font-family: 'Jura', sans-serif;
+}
+
+h1{
+    color: #FFFFFF;
+    margin: 6.25rem auto 0;
+    font-family: 'Alex Brush',cursive,sans-serif;
+    font-size: 5.625rem;
+}
+
+h2{
+    /* color: #66BFBF; */
+    color: #FFFFFF;
+    font-size: 2.5rem;     
+    font-family: 'Jura', sans-serif;
+}
+h3{
+    /* color:  #d6e4f0; */
+    color: #FFFFFF;
+    font-family: 'Jura', sans-serif;
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+a{
+    color:  #11999E;
+}
+
+p{
+    line-height: 2;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+    margin: 10px 20px;
+    font-family: 'Jura', sans-serif;
+}
+
+a:hover{
+    color: #EAF6F6;
+}
+
+img{
+    color: #FFFFFF;
+    width: 100px;
+}
+
+/*=============== class based css =====================*/
+
+.programmer-title{
+    margin-top: 3.125rem;
+}
+
+.programmer{
+    font-weight: normal;
+    position: relative;
+    bottom: 7.5rem;
+    left: 2.5rem;
+    color: #FFFFFF;
+}
+
+.code{
+    position: relative;
+    right: 9.375rem;
+    filter: invert();
+    padding-right: 1.25rem;
+}
+
+
+.top-container{
+    /* margin: 100px; */
+    /* background-color: #e4f9f5; */
+    /* background-color: #eeeeee; */
+    position: relative;
+    padding: 5rem;
+    background-image: url('../images/pt.jpg');
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    
+}
+
+.second-container{
+    background-color: #00adb5;
+    padding: 6.25rem;
+}
+
+.third-continer{
+    /* background-color: #393e46; */
+    /* background-color: #cca8e9; */
+    /* background-color: #6639a6; */
+    /* background-color: #1e56a0; */
+    background-image: url('../images/tech.jpg');
+    background-color: #00204a;
+    padding: 6.25rem;
+}
+
+
+.forth-container{
+    background-image: url('../images/ML.jpg');
+    padding: 6.25rem;
+}
+
+.fifth-container{
+    background-image: url('../images/web.jpg');
+    background-repeat: no-repeat;
+    padding: 6.25rem;
+}
+
+.sixth-container{
+    background-image: url('../images/entrepreneurship.jpg');
+    padding: 6.25rem;
+}
+
+.seventh-container{
+    background-image: url('../images/last.png');
+    padding: 6.25rem;
+}
+
+.middle-container{
+    padding: 6.25rem 0;
+    /* background-color: #d4d7dd; */
+    background-color: #f4f4f4;
+    
+}
+
+
+.skill-row{
+    width: 50%;
+    margin: 6.25rem auto 6.25rem auto;
+    text-align: left;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 18.75rem;
+    bottom: 18.75rem;
+
+}
+
+.top-cloud{
+    position: absolute;
+    top: 3.125rem;
+    right: 18.75rem;
+}
+
+
+.skill-left-img{
+    width: 25%;
+    float: left;
+    margin-right: 1.875rem;
+}
+
+.skill-right-img{
+    width: 25%;
+    float: right;
+    margin-left: 1.875rem;
+}
+.btn {
+    width: 200px;
+    border-radius: 0.5rem;
+    color: #FFFFFF;
+    font-family: 'Jura', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    padding: 0.625rem 1.25rem;
+    background-color: #66BFBF;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+    background-image: linear-gradient(to bottom, #11CDD4, #11999E)
+ }
+ 
+ .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    border-radius: 0.5rem;
+    text-decoration: none;
+ }
+
+ .about-me{
+     color: #FFFFFF;
+     width: 30%;
+     margin: auto;
+    }
+
+
+ .contact-me{
+     margin:6.25rem;
+     line-height: 2;
+ }
+
+ .bottom-container{
+     /* background-color: #66bfbf; */
+     background-color: #222831;
+     padding: 1.875rem;
+ }
+
+
+ .copy-right{
+     color: #ffffff;
+     font-size: 0.75rem;
+     padding: 1.25rem 0;
+ }
+
+ .contact-me-desc{
+     width: 40%;
+     margin: 2.5rem auto 3.75rem;
+
+ }
